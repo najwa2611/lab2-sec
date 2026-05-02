@@ -6,8 +6,6 @@ vous trouverez les screenshots du process de l installation ainsi que toutes les
 
 | Élément | Valeur |
 |---------|--------|
-| **Auteur** | [Votre nom] |
-| **Date** | [Date du jour] |
 | **Support** | AVD (Android Virtual Device) |
 | **Objectif** | Comprendre rooting et impacts sur la sécurité |
 | **Données** | Fictives uniquement |
