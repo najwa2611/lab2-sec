@@ -125,8 +125,8 @@ bash
 # Fermer l'émulateur
 adb emu kill
 
-# OU via Android Studio
-# Device Manager → Wipe Data
+OU via Android Studio
+Device Manager → Wipe Data
 
 ## FICHIERS GÉNÉRÉS
 Fichier	Description
