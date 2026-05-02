@@ -43,28 +43,28 @@ emulator -avd "Pixel_6_Pro" -writable-system
 bash
 adb root
 
-# Résultat : restarting adbd as root
+#### Résultat : restarting adbd as root
 
 adb remount
-# Résultat : remount succeeded
+#### Résultat : remount succeeded
 
 adb shell id
-# Résultat : uid=0(root) gid=0(root) 
+#### Résultat : uid=0(root) gid=0(root) 
 
 ### 4. Vérifications système
 
 bash
 adb shell getprop ro.boot.verifiedbootstate
 
-# Résultat attendu : orange/yellow
+#### Résultat attendu : orange/yellow
 
 adb shell getprop ro.boot.veritymode
 
-# Résultat : disable ou logging
+#### Résultat : disable ou logging
 
 adb shell ls -la /data/data/
 
-# Résultat : Liste des dossiers d'applications
+#### Résultat : Liste des dossiers d'applications
 
 ### 5. Journalisation
 
@@ -74,7 +74,7 @@ adb shell getprop > proprietes_systeme.txt
 adb shell ls -la /data/data/ > apps_installees.txt
 adb shell id > preuve_root.txt
 
-## RÉSULTATS OBTENUS
+#### RÉSULTATS OBTENUS
 Vérification	Statut	Résultat
 Root activé	 RÉUSSI	uid=0(root)
 Accès /data/data/	 RÉUSSI	Lecture des dossiers apps
