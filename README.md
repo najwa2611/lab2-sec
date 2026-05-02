@@ -32,7 +32,7 @@ vous trouverez les screenshots du process de l installation ainsi que toutes les
 bash
 adb devices
 
-# Résultat : emulator-5554   device
+#### Résultat : emulator-5554   device
 ### 2. Démarrage de l'émulateur (mode écriture)
 
 bash
